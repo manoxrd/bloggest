@@ -1,0 +1,1 @@
+<h1 class="font-abril text-3xl lg:text-4xl">{{ $slot }}</h1>

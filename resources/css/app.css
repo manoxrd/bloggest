@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+  /* Fonts */
+  --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-abel: "Abel", sans-serif;
+  --font-abril: "Abril Fatface", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-agdasima: "Agdasima", sans-serif;
+
+  /* Text Size */
+  --text-2xs: 0.625rem;
+
+  /* Colors */
+  --color-primary: #FFFAF6;
+  --color-secondary: #9A0002;
+  --color-third: #737373;
+  --color-body: #484848;
+
+
+  /* btn */
+  --radius-btn: 3px;
+  --inset-shadow-btn: inset 2px 2px 5px 0 rgba(255, 255, 255, 0.25);
+  --shadow-btn: 3px 3px 1px 0 rgba(0, 0, 0, 0.50);
+  
+  /* post card */
+  --shadow-post-card: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  
+}
+
+
+
+.trix-toolbar-mini .trix-button-group--block-tools,
+.trix-toolbar-mini .trix-button-group--file-tools,
+.trix-toolbar-mini .trix-button-group--history-tools,
+.trix-toolbar-mini .trix-button-group-spacer {
+  display: none !important;
+}
+
+.tag-button-active {
+  background-color: var(--color-body);
+  color: var(--color-primary);
+}
+
+.liked {
+  translate: 0;
+  font-size: 1rem;
+}
+
+.pn-active {
+  border-bottom: black 2px solid;
+  color: #000;
+}

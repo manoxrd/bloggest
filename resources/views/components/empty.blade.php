@@ -1,0 +1,1 @@
+<div class="text-xl font-bold font-inter text-center">{{ $slot }}</div>
