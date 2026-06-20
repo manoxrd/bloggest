@@ -184,6 +184,6 @@ This project is open-sourced software licensed under the [MIT license](https://o
 
 ## Author
 
-**Mansour Abdullah** — [GitHub](https://github.com/manoxrd) · _optional: LinkedIn, email_
+**Mansour Abdullah** — [GitHub](https://github.com/manoxrd) · [LinkedIn](https://www.linkedin.com/in/mansour-abdullah-667271336/) · [X](https://x.com/ManoXRD)
 
 Built as a portfolio project while learning Laravel.
